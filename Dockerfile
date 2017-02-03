@@ -4,6 +4,6 @@ WORKDIR /app
 
 ADD .ssh /root/.ssh
 
-VOLUME ["/tmp/ssh-agent"]
+VOLUME /tmp/ssh-agent
 
 ENV SSH_AUTH_SOCK=/tmp/ssh-agent
