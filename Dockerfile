@@ -1,4 +1,4 @@
-FROM xavierdutreilh/node-gettext:8
+FROM xavierdutreilh/node-gettext:8.1.0
 
 WORKDIR /app
 
